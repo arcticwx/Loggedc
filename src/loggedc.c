@@ -1,6 +1,6 @@
 #include "loggedc.h"
 
-f_logger(char **message[], char **label){
+void f_logger(char **message[], char **label){
     //Init file
     FILE *file = label;
     //Open file
@@ -12,7 +12,7 @@ f_logger(char **message[], char **label){
     fclose(file);
 }
 
-t_logger(char message){
+void t_logger(char message){
     //Print message. Not tested.
     printf(message);
     getchar();
