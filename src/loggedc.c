@@ -5,7 +5,6 @@ void f_logger(char **message[], char **label){
     FILE *file = label;
     //Open file
     file = fopen(label, "w+"); 
-    // Info i found said to do this, but it doesn't affect program, hence the comment. //fprintf(file, message);
     //Put message in file
     fputs(message, file);
     //Close file
