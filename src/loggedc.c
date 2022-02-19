@@ -19,7 +19,7 @@ void t_logger(char message){
 
 
 //Test Function
-int main(){
-    f_logger("test, test", "loggedc.log");
-    return 0;
-}
+// int main(){
+//     f_logger("test, test", "loggedc.log");
+//     return 0;
+// }
